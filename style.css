@@ -21,11 +21,10 @@
 a:link {
   text-decoration: none;
 }
-.flex-container-nav a:hover {
-  background-color: #ffffff;
-}
+
 .flex-container-nav a:hover:not(.logo) {
-  background: #f1f6f9;
+  background: #f3f8f1;
+  border-radius: 10px 10px 0px 0px;
 }
 .flex-container-nav {
   display: flex;
@@ -69,6 +68,12 @@ body {
   color: #2c5234;
   padding: 5% 5% 0% 5%;
   font-size: 40px;
+}
+.main-body h2 {
+  font-size: 35px;
+  font-family: "Playful Display", serif;
+  color: #2c5234;
+  margin-left: 5%;
 }
 .work-together {
   font-family: "Source Sans Pro", sans-serif;
@@ -204,27 +209,7 @@ body {
   padding: 1% 5%;
   font-size: 25px;
 }
-/* case study1 */
-.project1-hero-img {
-  border: 1px solid #ffffff;
-  height: 500px;
-  margin-top: 0%;
-  background: url("Images/charisse-kenion-9T0hl9Ro3Zg-unsplash.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center bottom;
-}
-.overview-container1 {
-  display: grid;
-  grid-template-columns: 55% 45%;
-}
-
-.overview-container1 p {
-  color: #2c5234;
-  font-family: "Source Sans Pro", sans-serif;
-  padding: 0% 5%;
-  font-size: 25px;
-}
+/*case studies */
 .overview-responsibilities li {
   margin-left: 10%;
 }
@@ -250,15 +235,94 @@ body {
   width: 100%;
   margin: 1%;
   text-align: center;
+  border-radius: 10px;
+}
+.breadcrumb:hover {
+  background-color: #f3f8f1;
+  box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.5);
+}
+.breadcrumb a:link {
+  color: #2c5234;
+}
+.breadcrumb a:visited {
+  color: #2c5234;
+}
+/* case study1 */
+.project1-hero-img {
+  border: 1px solid #ffffff;
+  height: 500px;
+  margin-top: 0%;
+  background: url("Images/charisse-kenion-9T0hl9Ro3Zg-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+.overview-container1 {
+  display: grid;
+  grid-template-columns: 55% 45%;
+  margin-left: 5%;
+}
+
+.overview-container1 p {
+  color: #2c5234;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 0% 5%;
+  font-size: 25px;
 }
 .research-container1 {
   border-top: 3px solid #2c5234;
 }
-.research-container1 h2 {
-  font-size: 35px;
-  font-family: "Playful Display", serif;
+.research-container1 h3 {
+  font-family: "Source Sans Pro", sans-serif;
   color: #2c5234;
-  margin-left: 5%;
+  padding: 0% 5% 0% 5%;
+  font-size: 35px;
+}
+.research-container1 p {
+  color: #2c5234;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 0% 5%;
+  font-size: 25px;
+}
+.survey-container {
+  display: flex;
+  margin: 3% 10%;
+  width: 80%;
+  justify-content: space-evenly;
+}
+.data {
+  border: 3px solid #2c5234;
+  color: #2c5234;
+  background-color: #ffffff;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 25px;
+  padding: 3%;
+  width: 100%;
+  margin: 1%;
+  text-align: center;
+  border-radius: 15px;
+}
+.interview-container {
+  display: flex;
+  margin: 3% 10%;
+  width: 80%;
+  justify-content: space-evenly;
+}
+.interview-summary-container img {
+  width: 20%;
+}
+
+.ideation-container1 {
+  border-top: 3px solid #2c5234;
+}
+.wireframe-container1 {
+  border-top: 3px solid #2c5234;
+}
+.testing-container1 {
+  border-top: 3px solid #2c5234;
+}
+.prototype-container1 {
+  border-top: 3px solid #2c5234;
 }
 
 /* responsive screen 1050px */
