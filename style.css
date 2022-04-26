@@ -320,10 +320,10 @@ body {
   width: 200px;
   height: 200px;
   overflow: hidden;
-  box-shadow: -10px -10px #2c5234;
+  box-shadow: -15px -15px #2c5234;
 }
 .interview-summary-container img {
-  width: 130%;
+  width: 100%;
   object-fit: cover;
 }
 .user-persona {
@@ -333,7 +333,7 @@ body {
   width: 200px;
   height: 200px;
   overflow: hidden;
-  box-shadow: -10px -10px #2c5234;
+  box-shadow: -15px -15px #2c5234;
 }
 .user-persona img {
   width: 100%;
@@ -341,7 +341,6 @@ body {
 }
 .ideation-container {
   display: grid;
-
   border-top: 3px solid #2c5234;
 }
 .wireframe-container {
